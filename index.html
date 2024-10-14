@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Team Building Event Platform/Home</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="fa/css/all.css">
+	<script src="bootstrap/js/bootstrap.bundle.js"></script>
+	<style type="text/css">
+		
+		.container-fluid{
+			background-color:rgba(0,0,0,0.03);
+		}
+
+		
+		.import{
+			background-color: ghostwhite;
+		}
+		span{
+			color:white;
+		}
+		a{
+			padding: 20px;
+			margin:6px;
+			font-size: 18px !important;
+			font-style: bold;
+			font-family: arial, corbel sans-serif;
+			text-shadow:2px 2px 3px grey;
+			box-shadow: 2px 2px 3px grey;
+			
+		}
+		a:hover{
+			background-color: tomato;
+			padding: 20px;
+		}
+		.navi{
+			background-color: ghostwhite; !important;
+			padding: 30px;
+			border-radius: 10px;
+			box-shadow: 10px 10px 10px rgb(100, 100, 100);
+
+		}
+		.myname{
+			text-shadow:5px 5px 5px black ;
+			background-color: tomato !important;
+			padding: 15px;
+			font-family:Arial, sans-serif;
+			font-style: bold;
+			font-size:24px ;
+			box-shadow: 10px 10px 10px rgb(100, 100, 100);
+			border-radius: 10px;sticky
+		}
+		.canv{
+			background-color: black;
+			color: white;
+			width: 1000px;
+			height: 800px;
+		}
+		.topcanv{
+			background-color: tomato;
+			color: white;
+		}
+		.img{
+			width:100%;
+			height:600px;
+			margin:auto ;
+			border-radius: 30px;
+
+		}
+		.textcolor{
+			padding-top: 5px;
+			font-size: 20px; 
+			background-color:tomato;
+			color:white;
+		}
+		.textcolor:hover{
+		 box-shadow: 5px 5px 5px white; 
+		}
+		.show{
+			color:white;
+			background-color: tomato;
+			font-size: 20px;
+			font-family:Verdana corbel, sans-serif;
+
+		}
+		.but{
+			background-color: lightslategray;
+		}
+		.headone{
+			font-family: impact, sans-serif;
+			box-shadow: 5px 5px 10px black;
+		}
+	
+		.parahead{
+			box-shadow: 5px 5px 10px black;
+		}
+		.parent{background-color: tomato}
+		.sec{padding: 30px;}
+		.headsection{
+			text-align: center;
+		}
+		.circle{
+			border: 20px solid tomato;
+			border-radius: 100px;
+			border-style: ridge;
+			padding: 20px;
+			background-color: black;
+			color:white;
+			line-height:2;
+		}
+		.round{
+			border-radius:20px;
+		}
+	 li{
+	 	padding-left: 15px;
+	 	padding-top: 5px;
+	 	padding-bottom: 5px;
+	 }
+
+
+	.head2{
+			border:10px solid tomato;
+				bottom:60px;
+			position:relative;
+			background-color: ghostwhite;
+			border-radius: 15px;
+			border-style: groove;
+			box-shadow:10px 10px 20px tomato;
+			margin: 20px;
+		}
+
+	 .overlapbox{
+	 	border:10px solid tomato;
+	 	border-style: ridge;
+	 	border-radius: 20px;
+	 	box-shadow:5px 10px 10px tomato;
+	 	background-color:black;
+	 	margin:20px;
+	 }
+	  .sub{
+	 	color: darkred;
+	 	font-family: Arial cursive, sans-serif ;
+	 	font-weight: bold;
+	 }
+	 h3{
+	 	color: tomato;
+	 }
+	 .nover:hover{
+	 		background-color: black;
+	 }
+	  button{
+	 	background:darkgreen;
+	 	color:orange;
+	 	border-radius: 10px;
+	 	font-size: 14px;
+	 }
+	 input{
+	 	border-radius: 10px;
+	 	border:none;
+	 	width:60%;
+	 }
+	 .but{
+	 	border:1px solid green;
+	 }
+	 .thin{
+	 	background-color:rgb(255,0,0);
+	 }
+	 .form2{
+	 	text-align: center;
+	 	background: rgba(0, 0, 0,0.2);
+	 }
+	 .foot h4{
+	 	text-shadow: 5px 10px 10px black;	
+	 	box-shadow: 5px 10px 10px black;
+	 }
+	.sec{
+		background-color: darkred;
+		color: white;
+	}
+	h4{
+		color:tomato;
+	}
+	.parahead{
+		color:black;
+	}
+	h4{
+		font-family: Verdana cursive, sans-serif ;
+	}
+	h2, h3, h4,h5{
+		font-family:Comic Sans MS, sans-serif ;
+		font-size: 1.5em;
+	}
+	h2{
+		font-weight: bold;
+	}
+	.nover:hover{
+		color:black;
+	}
+	
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+			<div class="row">
+				<div class="col-md parent pt-4">
+					<h1 class="headone"><span>Welcome</span> To The Team Building</h1>
+					<h4 class="parahead"><strong>The Ultimate virtual Event and Conference Platform.</strong></h4>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-md bg-light navi sticky-top">
+			  <div class="col-md container-fluid">
+			    <a class="navbar-brand mynamen nover" href="#"><h3><strong>teamB</strong></h3></a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+			        </li>
+			      <!-- link removed here -->
+			        <li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			            Services
+			          </a>
+			          <ul class="dropdown-menu">
+			            <li><a class="dropdown-item" href="#">Good deal</a></li>
+			            <li><a class="dropdown-item" href="#">Good services</a></li>
+			            <li><hr class="dropdown-divider"></li>
+			            <li><a class="dropdown-item" href="#">Another good services</a></li>
+			          </ul>
+			        </li>
+			       
+			      </ul>
+			      <form class="d-flex" role="search">
+			        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+			        <button class="btn btn-outline-success" type="submit">Search</button>
+			      </form>
+			    </div>
+			  </div>
+			</nav>
+			
+		<div class="col-md text-center pt-1 import bg-dark">
+			<marquee direction="right" scrollamount="5" ><a class="alert btn btn-dark textcolor " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+  				Important News here!
+			</a></marquee>
+		</div>
+		<div class="accordion" id="accordionExample">
+		  <div class=" col-md accordion-item">
+		    <h2 class="accordion-header" id="headingOne">
+		      <button class="accordion-button but" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		        Welcome to teamBuilding!
+		      </button>
+		    </h2>
+		    <div id="collapseOne" class="accordion-collapse  show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+		      <div class="accordion-body">
+		        <strong>You're highly welcome to TEAM BUILDING,</strong> the ultimate virtual event and conference plateform. Our Goal is to make events more accessible, engaging, and enjoyable for everyone. with our platform, you can attend events from anywhere in the world, connect with others, and learm from industry experts.
+		      </div>
+		    </div>
+		  </div>
+		<div class="col-md">
+			<div class="offcanvas offcanvas-start canvs" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+			  <div class="offcanvas-header topcanv">
+			    <h5 class="offcanvas-title " id="offcanvasExampleLabel">Offcanvas</h5>
+			    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			  </div>
+			  <div class="offcanvas-body canv">
+			   <div class="row">
+					<div class="col-12-md">
+						<h4>Event Conference</h4>
+						<table class="table table-striped table-hover table-dark">
+							<tr class="table-dark">
+								<th>Event Name</th>
+								<th>Date and Time</th>
+								<th>Location</th>
+								<th>Description</th>
+								<th>Registration Link</th>
+							</tr>
+					
+							<tr class="table-success">
+								<td>Virtual Conference</td>
+								<td>Octomber 26, 2024 10AM </td>
+								<td>Virtual</td>
+								<td>Join us for a day of learning and networking</td>
+								<td><a href="#">Register Now!</a></td>
+							</tr>
+							<tr class="table-danger">
+								<td>Workshop Series</td>
+								<td>November 5, 2024, 2PM</td>
+								<td>Virtual</td>
+								<td>Hands-on training and expert insights</td>
+								<td><a href="#">Register Now!</a></td>
+							</tr>
+						</table>
+					</div>
+				</div>	
+			     		<div class="col-12-md">
+			     			<h4>Speaker Lineup</h4>
+							<table class="table table-striped table-hover table-light">
+								<tr class="table-dark">
+									<th>Speaker Name</th>
+									<th>Title and Company</th>
+									<th>Bio and Headshot</th>
+									<th>Session Title and Description</th>
+									
+								</tr>
+						
+								<tr class="table-primary">
+									<td>Olanrewaju Olatanwa </td>
+									<td>CEO, 18k Corporation</td>
+									<td>Olanrewaju Olatanwa is a renowed and expert in...</td>
+									<td>Keynote: The future of industry</td>
+								</tr>
+
+						
+								<tr class="table-warning">
+									<td>Bob Johnson </td>
+									<td>Author and Consultant</td>
+									<td>Bob Johnson is a recognized thought leader in...</td>
+									<td>Workshop: Stragetic for Success</td>
+								</tr>
+
+							</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-md">
+					<div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+					  <div class="carousel-inner ">
+					
+					    <div class="carousel-item active shad bg-danger">
+					      <img src="team5.jpg" class="d-block img " alt="image of some of team">
+					    </div>
+					
+					    <div class="carousel-item shad bg-danger">
+					      <img src="team1.jpg" class="d-block img " alt="image of some of team">
+					    </div>
+					    <div class="carousel-item shad bg-danger">
+					      <img src="conference.jpg" class="d-block img " alt="image of some of team">
+					    </div>
+					    <div class="carousel-item shad bg-danger">
+					      <img src="conference2.jpg" class="d-block img " alt="image of some of team">
+					    </div>
+					    <div class="carousel-item shad bg-danger">
+					      <img src="conference5.jpg" class="d-block img " alt="image of some of team">
+					      <div class="carousel-item shad bg-danger">
+					      <img src="conference5.jpg" class="d-block img " alt="...">
+					    </div>
+					    </div>
+					  </div>
+					</div>
+
+					 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="visually show"></span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="visually show"></span>
+				  </button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md p-4 m-3">
+					<div>
+						<h2>Join our  vibrant community of event enthusiasts and experience the future of 	virtual events and conferences. Our platform is designed to make events more accessible, engaging, and enjoyable for everyone</h2>
+					</div>
+					<div class="bg-dark me-5">
+						<h3 class="text-center p-5">Discover upcoming events, connect with fellow attendees, and learn from industry experts in our virtual event spaces.</h3>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 sec">
+					<h4 class="headsection bg-dark mt-5">Team building makes it easy to</h4><br><br>
+					<h5>Hot engaging events</h5>
+					<h5>Monetize your business</h5>
+					<h5>Connect with global audiences</h5>
+				</div>
+
+				<div class="col-md-5 sec">
+					<h1  class="headsection pt-5">Unlock the Power of Vitual Events</h1><br>
+					<h4 class="bg-dark ps-3"> Experience the future of events with Team Building. Our platform make it easy to attend, host, and monetize virtual events and conferences.</h4><br><br>
+					<h5>discover Events</h5>
+					<h5>Connect with Attendees</h5>
+					<h5>Learn from Experts</h5>
+				</div>
+
+				<div class="col-md-4 sec">
+					<h2  class="headsection">Your one-stop-shop for virtual events and conferences.</h2><br><br>
+					<h3 class="bg-dark ps-3">Our platform offers:</h3>
+					<h5>virtual Event Spaces</h5>
+					<h5>Networking Lounge</h5>
+					<h5>Event Calender</h5>
+					<h5>Resources Library</h5>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 mt-5">
+					<button class="btn btn-outline-dark col-12 "><h4>Sign up now and take your events to the next level!</h4></button>
+				</div>
+			</div>
+
+			<div class="col-md-8 offset-md-2">
+				<div class="row circle">
+					<p> have chosen. Like, text, images, lists, etc.Some text as placeholder. In real text, images, lists, etc.Some te Like, text, images, lists, etc.Some text as placeholder. In real text, images, lists, etc.Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.</p>
+				</div>
+			</div>
+			<div class="row-sm d-flex justify-content-center overlapbox">
+				<div class="col-md-6 offset text-center overlap">
+					<h2 class="head2">can have the elements you have chosen. Like, text, images, lists, etc.Some text as placeholder. In real text, images, lists, etc.Some te Like list etc </h2>
+				</div>
+				<div class="col-md-6 offset text-center overlap">
+					<h2 class="head2">can have the elements you have chosen. Like, text, images, lists, etc.Some text as placeholder. In real text, images, lists, etc.Some te Like list etc </h2>
+				</div>
+			</div>
+				<div class="row ">
+				<div class="col-md-10 box offset-md-1">
+				<h2 class="sub offset-md-4 p-4">Subscribe to Our Newsletter</h2>
+				<br>
+				<form class="form2 form-control" action="#" method="post">
+					<input class="form-control offset-md " type="text" name="name" id="name" placeholder="Enter your name"><br>
+					<input class=" form-control offset-md" type="email" name="email" id="mail" placeholder="email"><br>
+					<div class="row">
+						<div class="col-md-12 thin ">
+							<button class="but alert btn pb-2 pt-2 m-2 btn-success">Subscribe</button>
+						</div>
+					</div>
+				</form>
+				</div>
+			</div>
+
+			<hr>
+			<footer class="row text-center bg-light foot">
+				<h4>teamB9kk@gmail.com</h4>
+				<p>Olanrewaju/chop TANWA, copyright &copy; 2024</p>
+			</footer>
+	</div>
+
+	<script type="text/javascript">
+		var name=alert('You are highly welcome')
+		var name= prompt(' What is your name')
+        var name= alert(' You are wecome to Team building platform' + " " + name)
+       
+
+	</script>
+</body>
+</html>
